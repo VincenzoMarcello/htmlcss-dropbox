@@ -5,3 +5,62 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILS */
+
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align {
+  align-items: center;
+}
+
+/* HEADER */
+
+.header-top {
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.nav-link-list {
+  list-style-type: none;
+}
+
+.nav-link-item {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
