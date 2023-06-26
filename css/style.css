@@ -102,12 +102,12 @@ h1 {
 }
 
 .jumbodrom-text {
-  width: 35%;
+  width: 30%;
   height: 500px;
 }
 
 .jumbodrom-img {
-  width: 65%;
+  width: 70%;
   height: 500px;
 }
 
@@ -117,7 +117,6 @@ h1 {
 
 .container-medium p {
   padding-bottom: 30px;
-  padding-right: 100px;
   line-height: 25px;
 }
 
