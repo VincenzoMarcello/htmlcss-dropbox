@@ -8,7 +8,37 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 200vh;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: inline-block;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
 }
 
 /* UTILS */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
