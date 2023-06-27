@@ -46,3 +46,29 @@ img {
 .row {
   display: flex;
 }
+
+/* NAVBAR */
+
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(246, 9, 9);
+}
+
+.header-top .row {
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  padding: 0 15px;
+}
