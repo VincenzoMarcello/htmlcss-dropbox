@@ -130,6 +130,12 @@ img {
   color: white;
 }
 
+.button-white {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: rgb(0, 0, 0);
+}
+
 .arrow-icon {
   font-size: 60px;
   margin-top: auto;
@@ -245,7 +251,7 @@ img {
   gap: 45px;
 }
 
-.card__body .button {
+.card__body.button {
   width: 100%;
 }
 
@@ -279,4 +285,26 @@ p a {
   width: 70%;
   padding-top: 50px;
   font-size: 0.9rem;
+}
+
+/* SECTION ENTER IN DROPBOX */
+
+.enter-padding {
+  padding: 50px 0 50px 0;
+}
+
+.col-left {
+  width: 60%;
+}
+
+.col-right {
+  width: 30%;
+}
+
+.col-body {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
