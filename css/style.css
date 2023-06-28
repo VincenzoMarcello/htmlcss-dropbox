@@ -287,6 +287,10 @@ p a {
   font-size: 0.9rem;
 }
 
+.width-60 {
+  width: 60%;
+}
+
 /* SECTION ENTER IN DROPBOX */
 
 .enter-padding {
