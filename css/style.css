@@ -336,8 +336,15 @@ p a {
   width: 50%;
 }
 
+.img-grid-two {
+  width: 50%;
+}
+
 .green {
   background-color: #a2d39b;
+}
+.square:hover {
+  border: 10px solid rgba(230, 230, 230, 0.347);
 }
 
 .purple {
@@ -378,4 +385,8 @@ p a {
 
 .cont-azure-padding {
   padding: 100px 0;
+}
+
+.col-grid.light-grey {
+  padding: 30px;
 }
