@@ -64,6 +64,10 @@ img {
   gap: 50px;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -390,3 +394,11 @@ p a {
 .col-grid.light-grey {
   padding: 30px;
 }
+
+/* SECTION REQUESTS */
+
+.title-4 {
+  line-height: 90px;
+}
+
+/* FOOTER */
