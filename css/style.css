@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 200vh;
+  height: 500vh;
 }
 
 a {
@@ -61,6 +61,10 @@ img {
   gap: 50px;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .col-30 {
   width: 30%;
 }
@@ -71,8 +75,7 @@ img {
 
 .col-100 {
   width: 100%;
-  height: 200px;
-  border: 1px solid black;
+  border: 1px solid #dedee0;
 }
 
 .col-top {
@@ -93,7 +96,7 @@ img {
 .text-large {
   font-size: 40px;
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .text-medium {
   font-size: 25px;
@@ -110,6 +113,7 @@ img {
 .small-grey {
   color: #939393;
 }
+
 /* BUTTON */
 
 .button {
@@ -179,14 +183,14 @@ img {
   gap: 30px;
 }
 
-/* SECTION TWO */
+/* SECTION BUSINESS-PLAN */
 
-.section-two {
-  padding-top: 90px;
+.business-plan {
+  padding: 100px 0 80px 0;
 }
 
 .circle {
-  display: inline-block;
+  display: block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -203,11 +207,7 @@ img {
   display: flex;
   align-items: center;
   padding-right: 50px;
-}
-
-.special-link {
-  text-decoration: underline;
-  color: #0061ff;
+  padding-bottom: 50px;
 }
 
 .blue-check {
@@ -216,10 +216,67 @@ img {
   color: #0061ff;
 }
 
-li {
-  padding-top: 10px;
+.cards-wrapper {
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-.space-row {
-  padding-bottom: 50px;
+.card {
+  border: 1px solid rgb(198, 198, 198);
+  height: 100%;
+}
+
+.cards-wrapper .col {
+  /* width: calc((100% - 100px) / 3); */
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.card__header {
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+.card__body {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.card__body .button {
+  width: 100%;
+}
+
+.price,
+.bold {
+  font-weight: 600;
+}
+
+p a {
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+.list-item,
+.body__section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  gap: 6px;
+}
+
+.col-100 .button {
+  width: auto;
+}
+
+.col-100 p {
+  width: 70%;
+  padding-top: 50px;
+  font-size: 0.9rem;
 }
