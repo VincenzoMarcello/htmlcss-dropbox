@@ -8,7 +8,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 900vh;
 }
 
 a {
@@ -402,3 +401,19 @@ p a {
 }
 
 /* FOOTER */
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+footer li {
+  padding: 15px 0;
+}
+
+footer h3 {
+  padding-bottom: 50px;
+}
