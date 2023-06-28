@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 500vh;
+  height: 900vh;
 }
 
 a {
@@ -52,9 +52,12 @@ img {
   display: flex;
 }
 
+.flex {
+  display: flex;
+}
+
 .wrap {
   flex-wrap: wrap;
-  gap: 50px;
 }
 
 .gap {
@@ -76,21 +79,6 @@ img {
 .col-100 {
   width: 100%;
   border: 1px solid #dedee0;
-}
-
-.col-top {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #dedee0;
-}
-
-.col-bottom {
-  padding: 40px;
-  min-height: 900px;
-  border: 1px solid #dedee0;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 .text-large {
@@ -148,6 +136,7 @@ img {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 2;
   background-color: white;
 }
 
@@ -265,6 +254,10 @@ p a {
   text-decoration: underline;
 }
 
+.link {
+  color: #0061ff;
+  text-decoration: underline;
+}
 .list-item,
 .body__section {
   display: flex;
@@ -315,4 +308,62 @@ p a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+/* SECTION SECOND GRID */
+
+.col-grid {
+  width: calc(100% / 3);
+}
+
+.square {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-grid {
+  filter: invert(1);
+  width: 50%;
+}
+
+.green {
+  background-color: #a2d39b;
+}
+
+.purple {
+  background-color: #61082b;
+}
+
+.marine {
+  background-color: #0093ce;
+}
+
+.red {
+  background-color: #ff1c1c;
+}
+
+.light-grey {
+  background-color: #f5f5f5;
+}
+
+.dark-red {
+  background-color: #d5001f;
+}
+
+.blue {
+  background-color: #0d2481;
+}
+
+.azure {
+  background-color: #b4d0e7;
+}
+
+.yellow {
+  background-color: #ffd830;
 }
